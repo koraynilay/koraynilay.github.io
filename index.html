@@ -15,9 +15,18 @@ p {
 	margin: 0px 200px;
 }
 </style>
+<script>
+function change_msg()
+{
+	document.getElementById("msg").innerHTML = "<input>1</input><br><input>1</input>";
+	//edit and commit to repo
+}
+
+</script>
 </head>
 <body>
 <h1>Discord Bot</h1>
-<p>c</p>
+<p>Clicca qui per cambiare il msg<br><br><br><button onclick=change_msg()>abcdefghijklmnopqrstuvwxyz</button></p>
+<p id="msg"></p>
 </body>
 </html>
